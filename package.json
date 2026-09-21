@@ -1,0 +1,25 @@
+{
+  "name": "rubik-cfop-trainer",
+  "version": "0.1.0",
+  "description": "MVP-тренажёр кубика Рубика: геометрия, нотация, валидатор, скрамблы, оптимальный крест и пары F2L",
+  "type": "module",
+  "main": "src/state.js",
+  "bin": {
+    "rubik-cfop": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node src/cli.js demo"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "rubik",
+    "cube",
+    "cfop",
+    "solver",
+    "trainer"
+  ],
+  "license": "MIT"
+}

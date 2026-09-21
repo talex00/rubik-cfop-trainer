@@ -8,7 +8,7 @@
     "rubik-cfop": "src/cli.js"
   },
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test",
     "demo": "node src/cli.js demo"
   },
   "engines": {
